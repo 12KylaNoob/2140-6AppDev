@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+/* class binding */
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
