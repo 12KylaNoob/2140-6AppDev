@@ -1,21 +1,9 @@
-<!--Interpolation-->
-<h1>
-  {{ appName }}
-</h1>
+<app-navbar></app-navbar>
 
-<!--Property binding-->
-<input type="text" [value]="clientName" />
+<router-outlet data-bs-spy="scroll" data-bs-target="#navbar"></router-outlet>
+<app-about id="about"></app-about>
+<app-skills></app-skills>
+<app-education></app-education>
+<app-achievements></app-achievements>
 
-<!--Style binding-->
-<p [style.color]="myColor">Text color is styled using style binding</p>
-
-<!--Class binding-->
-<p [class]="appliedCSSClass">This line applied the *myClass* property</p>
-
-<input [(ngModel)]="myName" placeholder="Enter your name" />
-<p>Hello, {{ myName }}!</p>
-
-<!-- Event binding -->
-<h2>Event Binding</h2>
-<button (click)="showData($event)">Click here</button>
-<button on-click="showData($event)">Click here</button>
+<app-footer></app-footer>

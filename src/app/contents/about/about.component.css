@@ -1,0 +1,45 @@
+div {
+    height: 20%;
+    /* background-image: url('assets/about.png');
+    background-repeat: no-repeat; */
+    background-color: #110273;
+    position: relative;
+}
+
+.bckgrnd {
+    padding-top: 15%;
+}
+
+#me {
+    z-index: 2;
+    width: 10%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2%;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    padding-bottom: 20%;
+}
+
+.text-muted {
+    color: #F2B263;
+}

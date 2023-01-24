@@ -1,0 +1,24 @@
+#skills {
+    padding: 5%;
+}
+
+.content {
+    background-color: #ffff;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    margin: 0% 35%;
+    width: 30%;
+}
